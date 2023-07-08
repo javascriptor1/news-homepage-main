@@ -14,9 +14,7 @@ hamburgerMenu.addEventListener("click", () => {
 });
 
 closeIcon.addEventListener("click", () => {
-  logo.classList.remove("invisible");
   hamburgerMenu.classList.remove("hidden");
-  mobileMenu.classList.remove("flex");
   closeIcon.classList.add("hidden");
   mobileMenu.classList.add("hidden");
   overlay.classList.remove("overlay");

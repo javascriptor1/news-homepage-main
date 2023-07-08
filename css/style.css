@@ -556,10 +556,6 @@ video {
   }
 }
 
-.invisible {
-  visibility: hidden;
-}
-
 .absolute {
   position: absolute;
 }
@@ -870,8 +866,6 @@ hr {
   z-index: 1;
 }
 
-/* TROUBLESHOOTING CSS  */
-
 .hover\:bg-Verydarkblue:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(240 100% 5% / var(--tw-bg-opacity));
@@ -1021,3 +1015,4 @@ hr {
     color: hsl(236 13% 42% / var(--tw-text-opacity));
   }
 }
+
