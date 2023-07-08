@@ -27,9 +27,11 @@
   </head>
   <body class="text-[15px] font-Inter">
     <!-- Global container wrapper  -->
-    <div class="grid p-[8px] lg:p-28 mx-auto">
+    <div
+      class="grid xl:grid-cols-3 xl:grid-rows-4 p-[8px] lg:p-28 mx-auto xl:gap-8"
+    >
       <header
-        class="flex justify-between xl:justify-start xl:items-center mb-8 xl:text-Darkgrayishblue xl:text-lg"
+        class="flex justify-between xl:justify-start xl:items-center mb-8 xl:mb-14 xl:text-Darkgrayishblue xl:text-lg xl:col-span-full xl:self-start"
       >
         <img src="assets/images/logo.svg" alt="Logo" />
         <ul class="hidden xl:flex ml-auto">
@@ -50,7 +52,8 @@
           class="hidden"
         />
       </header>
-      <div>
+      <!-- HERO SECTION HERE  -->
+      <div class="xl:row-start-2 xl:col-span-2">
         <img
           src="assets/images/image-web-3-mobile.jpg"
           alt="web 3 "
@@ -59,30 +62,36 @@
         <img
           src="assets/images/image-web-3-desktop.jpg"
           alt="web 3 "
-          class="hidden xl:block w-full xl:w-2/3"
+          class="hidden xl:block w-full"
         />
-        <div>
+        <div class="xl:flex xl:items-start lg:gap-20">
           <h1 class="text-5xl font-extrabold mt-6">
             The Bright Future of Web 3.0?
           </h1>
           <div>
-            <p class="text-Darkgrayishblue mt-4 mb-8">
+            <p class="text-Darkgrayishblue mt-4 mb-8 xl:p-4">
               We dive into the next evolution of the web that claims to put the
               power of the platforms back into the hands of the people. But is
               it really fulfilling its promise?
             </p>
             <a
               href="#"
-              class="bg-Softred text-Offwhite tracking-[3px] font-semibold uppercase py-2 px-8"
+              class="bg-Softred text-Offwhite tracking-[3px] font-semibold uppercase py-2 px-8 xl:py-3 xl:px-9"
               >Read more</a
             >
           </div>
         </div>
       </div>
       <!-- /////////// NEW DIV HERE //////////////// -->
-      <section>
-        <div class="bg-Verydarkblue text-Offwhite p-4 mt-16 mb-12">
-          <h2 class="text-Softorange text-2xl font-bold mb-8">New</h2>
+      <section class="xl:items-start xl:row-end-3 h-full">
+        <div
+          class="bg-Verydarkblue text-Offwhite p-4 mt-16 mb-12 xl:mt-0 xl:mb-0 xl:h-full xl:px-6"
+        >
+          <h2
+            class="text-Softorange text-2xl font-bold mb-8 xl:text-3xl xl:mt-4"
+          >
+            New
+          </h2>
           <h3 class="font-extrabold text-xl mb-2">Hydrogen VS Electric Cars</h3>
           <p class="text-[#8b8ba3] text-sm mb-8">
             Will hydrogen-fueled cars ever catch up to EVs?
@@ -106,11 +115,11 @@
         </div>
       </section>
       <!-- PC  - LAPTOP - GMAING SECTION HERE  -->
-      <section>
+      <section class="xl:col-span-full xl:mt-8">
         <div class="flex flex-col gap-6 lg:flex-row">
           <!-- FIRST DIV -->
           <div class="flex flex-row h-[130px]">
-            <div class="w-1/3">
+            <div class="w-1/4">
               <img
                 src="assets/images/image-retro-pcs.jpg"
                 alt="computer"
@@ -122,14 +131,14 @@
               <h4 class="text-Verydarkblue font-extrabold text-sm">
                 Reviving Retro PCs
               </h4>
-              <p class="text-xs text-Darkgrayishblue font-base">
+              <p class="text-sm text-Darkgrayishblue font-base">
                 What happens when old PCs are given modern upgrades?
               </p>
             </div>
           </div>
           <!-- SECOND DIV -->
           <div class="flex flex-row h-[130px]">
-            <div class="w-1/3">
+            <div class="w-1/4">
               <img
                 src="assets/images/image-top-laptops.jpg"
                 alt="laptop"
@@ -141,14 +150,14 @@
               <h4 class="text-Verydarkblue font-extrabold text-sm">
                 Top 10 Laptops of 2022
               </h4>
-              <p class="text-xs text-Darkgrayishblue font-base">
+              <p class="text-sm text-Darkgrayishblue font-base">
                 Our best picks for various needs and budgets.
               </p>
             </div>
           </div>
           <!-- THIRD DIV -->
           <div class="flex flex-row h-[130px]">
-            <div class="w-1/3">
+            <div class="w-1/4">
               <img
                 src="assets/images/image-gaming-growth.jpg"
                 alt="Gaming"
@@ -160,7 +169,7 @@
               <h4 class="text-Verydarkblue font-extrabold text-sm">
                 The Growth of Gaming
               </h4>
-              <p class="text-xs text-Darkgrayishblue font-base">
+              <p class="text-sm text-Darkgrayishblue font-base">
                 How the pandemic has sparked fresh opportunities.
               </p>
             </div>

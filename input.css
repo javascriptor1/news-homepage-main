@@ -3,23 +3,32 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter";
   src: url("../assets/fonts/static/Inter-Regular.ttf");
   font-weight: 400;
+  font-display: swap; /*For better browser performance */
 }
 @font-face {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter";
   src: url("../assets/fonts/static/Inter-Bold.ttf");
   font-weight: 700;
+  font-display: swap;/*For better browser performance */
 }
 @font-face {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter";
   src: url("../assets/fonts/static/Inter-ExtraBold.ttf");
   font-weight: 800;
+  font-display: swap;/*For better browser performance */
+}
+
+@media (min-width: 1280px) {
+  div.grid {
+    grid-template-rows: 90px auto auto auto;
+  }
 }
 
 hr {
   border-top: 1px solid hsl(236, 13%, 42%);
 }
 
-/* TROUBLSHOOTING CSS  */
+/* TROUBLESHOOTING CSS  */
