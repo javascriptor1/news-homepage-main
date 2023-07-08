@@ -805,6 +805,31 @@ hr {
 
 /* TROUBLESHOOTING CSS  */
 
+.hover\:bg-Verydarkblue:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(240 100% 5% / var(--tw-bg-opacity));
+}
+
+.hover\:bg-Softred:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(5 85% 63% / var(--tw-bg-opacity));
+}
+
+.hover\:text-Offwhite:hover {
+  --tw-text-opacity: 1;
+  color: hsl(36 100% 99% / var(--tw-text-opacity));
+}
+
+.hover\:text-Softorange:hover {
+  --tw-text-opacity: 1;
+  color: hsl(35 77% 62% / var(--tw-text-opacity));
+}
+
+.hover\:text-Softred:hover {
+  --tw-text-opacity: 1;
+  color: hsl(5 85% 63% / var(--tw-text-opacity));
+}
+
 @media (min-width: 1024px) {
   .lg\:flex-row {
     flex-direction: row;
