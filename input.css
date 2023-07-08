@@ -2,8 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-/* TROUBLSHOOTING CSS  */
-
-section > div {
-  border: 2px solid red;
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url("../assets/fonts/static/Inter-Regular.ttf");
+  font-weight: 400;
 }
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url("../assets/fonts/static/Inter-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url("../assets/fonts/static/Inter-ExtraBold.ttf");
+  font-weight: 800;
+}
+
+hr {
+  border-top: 1px solid hsl(236, 13%, 42%);
+}
+
+/* TROUBLSHOOTING CSS  */
